@@ -1,4 +1,4 @@
-# GNO to mGNO 
+# ZKP
 
 Implement the ZKP Protocol and a Proof-of-Concept application that utilizes the protocol to register and authenticate users.
 
