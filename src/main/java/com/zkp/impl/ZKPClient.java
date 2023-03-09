@@ -59,7 +59,7 @@ public class ZKPClient {
         loginUser(client, user, x);
       }
       else {
-        logger.info("Invalid Command. Please try available command \n Register using ./build/install/examples/bin/zkp-server -register username Id(Int) \nLogin Using ./build/install/examples/bin/zkp-client -login username Id(Int)");
+        logger.info("Invalid Command. Please try available command \n Register using ./build/install/examples/bin/zkp-client -register username Id(Int) \nLogin Using ./build/install/examples/bin/zkp-client -login username Id(Int)");
       }
     } finally {
       // ManagedChannels use resources like threads and TCP connections. To prevent leaking these

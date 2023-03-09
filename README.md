@@ -22,3 +22,14 @@ Run the Dapp in Docker Container.
 docker-compose up -d --build
 ```
 
+Register Command 
+
+```sh
+./build/install/examples/bin/zkp-client -register username Id(Int)
+```
+
+Login Command 
+
+```sh
+./build/install/examples/bin/zkp-client -login username Id(Int)
+```
